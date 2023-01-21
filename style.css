@@ -104,5 +104,93 @@ text-shadow: 30px;
 }
 .imagesPrestations img{
     border-radius: 10px;
+    box-shadow: 5px 5px 3px 1px;
 
+}
+/* quand tu survoles image */
+.imagesPrestations img:hover{
+    opacity: 0.5;
+transform: perspective(2);
+transition: 0.8s ease-in-out;
+}
+/* tourisme */
+/* selection id commence par # */
+#tourisme{
+    height: 1400px;
+    background-color: #FFFAE1;
+    padding: 1px 2%;
+    
+}
+#ourisme h2{
+    padding-top: 60px;
+}
+#ocean{
+    background: url(media/ocean.jpg);
+}
+#chateau{
+    background: url(media/chateau.JPG);
+}
+#phare{
+    background: url(media/phare.JPG);
+}
+#vignoble{
+    background: url(media/vignes.jpg);
+}
+#tourisme li{
+    margin: 65px 100px 0 100px;
+    height: 226px;
+    width: 55%;
+    max-width: 550px;
+    float: left;
+    box-shadow: 6px 6px 28px -1px rgba(0,0, 0, 75);
+}
+#tourisme p{
+    height: 45px;
+    width: 235px;
+    background-color: aquamarine;
+    float: right;
+    margin: 50px -180px 0 0 ;
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 15px;
+    box-shadow: 4px 4px 0 1px rgb(147, 208, 105);
+}
+/* le changement de cote des images pas des vignettes */
+#tourisme #chateau,#tourime,#vignole{
+    float: right;
+}
+#chateau p, #vignoble p{
+    float: left;
+    background-color: cyan;
+    margin-left: -180px;
+    box-shadow: -4px 4px 0 1px rgba(15,154,156,1);
+}
+
+/* footer******************* */
+footer{
+    background-color: #524a3a;
+    color: #FFFAE1;
+    padding: 20px 0 10px 0;
+    text-align: center;
+
+}
+form{
+    margin: 0 auto;
+    max-width: 900px;
+}
+input,textarea,button{
+    border: none;
+    width: 55%;
+    padding: 15px 10px;
+    margin: 1px 0;
+    font-size: 1.2em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 8px;
+}
+textarea{
+    height: 120px;
+}
+button{
+    font-size: 1.5em;
+    background-color: #FFFAE1;
 }
