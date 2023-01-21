@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100&family=Dancing+Script&display=swap');
 body{
-    font-family: 'Advent Pro', sans-serif;
+    font-family: 'Advent+Pro', sans-serif;
     padding: 0;
     margin: 0;
 
@@ -44,14 +44,65 @@ header li a{
     padding: 18px 16px;
 
 }
-//*pour joindre un id on met #*/
+/*pour joindre un id on met #*/
 #logo {
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Dancing+Script', cursive;
     font-weight: bold;
     float: left;
 }
 /* ******image principale */
-#imagePrincipale{
+#imagePrincipale{/*fixed permet de fixer image derriere*/
     padding-top: 60px;
-    background: url(media/image-principale.JPG) no-repeat 50% 50%;
+    background: url(media/image-principale.JPG) no-repeat fixed 50% 50%;
+    background-size: cover;
+    height: 799px;
+}
+h1 {
+    font-family: 'Dancing+Script', cursive;
+    text-align: center;
+    color: antiquewhite;
+    font-size: 6em;
+    margin-top: 110px;
+text-shadow: 1px 3px 30px black;
+}
+#premierTrait{
+    height: 1px;
+    width: 25%;
+    margin: -3px auto;
+    background-color: #FFFAE1;
+
+}
+h3{
+    text-align: center;
+    color: #FFFAE1;
+    font-size: 3em;
+text-shadow: 30px;
+}
+/* presentation */
+#presentation
+{
+    background-color: #FFFAE1;
+    padding: 10px 0px 100px 0px;
+
+}
+#texteIntro{
+    padding: 0px,20%;
+}
+#prestations{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 10%;
+}
+/* pour appeler une classe on fait un point . */
+.imagesPrestations h4{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 1.8em;
+    margin: 15px;
+    font-weight: 300;
+}
+.imagesPrestations img{
+    border-radius: 10px;
+
 }
