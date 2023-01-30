@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100&family=Dancing+Script&display=swap');
+/* permet de scroll tout doucement */
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: 'Advent+Pro', sans-serif;
     padding: 0;
